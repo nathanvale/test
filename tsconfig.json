@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/ndv-scripts/dist/config/tsconfig.json",
+  "include": [
+    "src",
+    "types"
+  ],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  }
+}

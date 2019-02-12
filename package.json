@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ndv-scripts test",
+    "build": "ndv-scripts build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "ndv-scripts": "^1.1.13"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
