@@ -1,0 +1,10 @@
+"use strict";
+
+var _ = require("..");
+
+test('y should be...', () => {
+  expect(_.y).toEqual({
+    some: 'value'
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9fX3Rlc3RzX18vaW5kZXgudHMiXSwibmFtZXMiOlsidGVzdCIsImV4cGVjdCIsInkiLCJ0b0VxdWFsIiwic29tZSJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQUEsSUFBSSxDQUFDLGdCQUFELEVBQW1CLE1BQU07QUFDM0JDLEVBQUFBLE1BQU0sQ0FBQ0MsR0FBRCxDQUFOLENBQVVDLE9BQVYsQ0FBa0I7QUFBQ0MsSUFBQUEsSUFBSSxFQUFFO0FBQVAsR0FBbEI7QUFDRCxDQUZHLENBQUoiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge3l9IGZyb20gJy4uJ1xudGVzdCgneSBzaG91bGQgYmUuLi4nLCAoKSA9PiB7XG4gIGV4cGVjdCh5KS50b0VxdWFsKHtzb21lOiAndmFsdWUnfSlcbn0pXG4iXX0=
