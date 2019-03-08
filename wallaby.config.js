@@ -1,4 +1,3 @@
 const {wallaby: wallabyConfig} = require('easy-scripts/config')
- 
-module.exports = wallabyConfig 
- 
+
+module.exports = wallabyConfig

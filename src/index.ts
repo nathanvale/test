@@ -3,8 +3,8 @@ export class C {
   public getX = () => this.x
   public setX = (newVal: number) => {
     this.x = newVal
-  } 
+  }
 }
- 
+
 export const x = new C()
-export const y = { ...{ some: 'value' } }
+export const y = {...{some: 'value'}}
