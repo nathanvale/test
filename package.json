@@ -19,12 +19,5 @@
   "devDependencies": {
     "easy-scripts": "^2.0.0",
     "typescript": "^3.3.3333"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "easy-scripts commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-commit": "easy-scripts pre-commit",
-      "post-rewrite": "easy-scripts pre-commit"
-    }
   }
 }
