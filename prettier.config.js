@@ -1,1 +1,1 @@
-module.exports = require('ndv-scripts/config').prettier
+module.exports = require('easy-scripts/config').prettier

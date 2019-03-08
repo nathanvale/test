@@ -6,16 +6,16 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "build": "ndv-scripts build",
-    "format": "ndv-scripts format",
-    "lint": "ndv-scripts lint",
-    "test": "ndv-scripts test"
+    "build": "easy-scripts build",
+    "format": "easy-scripts format",
+    "lint": "easy-scripts lint",
+    "test": "easy-scripts test"
   },
   "dependencies": {
     "@babel/runtime": "^7.3.1"
   },
   "devDependencies": {
-    "ndv-scripts": "^1.3.0",
+    "easy-scripts": "^2.0.0",
     "typescript": "^3.3.3333"
   }
 }

@@ -1,10 +1,10 @@
 export class C {
   private x = 10
-  getX = () => this.x
-  setX = (newVal: number) => {
+  public getX = () => this.x
+  public setX = (newVal: number) => {
     this.x = newVal
-  }
+  } 
 }
-
-export let x = new C()
-export let y = {...{some: 'value'}}
+ 
+export const x = new C()
+export const y = { ...{ some: 'value' } }

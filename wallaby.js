@@ -1,3 +1,4 @@
-const {wallaby: wallabyConfig} = require('ndv-scripts/config')
-
-module.exports = wallabyConfig
+const {wallaby: wallabyConfig} = require('easy-scripts/config')
+ 
+module.exports = wallabyConfig 
+ 
