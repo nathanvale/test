@@ -9,7 +9,9 @@
     "build": "easy-scripts build",
     "format": "easy-scripts format",
     "lint": "easy-scripts lint",
-    "test": "easy-scripts test"
+    "test": "easy-scripts test",
+    "pre-commit": "easy-scripts pre-commit",
+    "validate": "easy-scripts validate"
   },
   "dependencies": {
     "@babel/runtime": "^7.3.1"
@@ -17,5 +19,12 @@
   "devDependencies": {
     "easy-scripts": "^2.0.0",
     "typescript": "^3.3.3333"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "easy-scripts commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "easy-scripts pre-commit",
+      "post-rewrite": "easy-scripts pre-commit"
+    }
   }
 }
