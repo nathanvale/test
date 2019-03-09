@@ -1,3 +1,3 @@
-const {babel: babelConfig} = require('easy-scripts/config')
+const { babel: babelConfig } = require("easy-scripts/config");
 
-module.exports = Object.assign(babelConfig(), {})
+module.exports = Object.assign(babelConfig(), {});

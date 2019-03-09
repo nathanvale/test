@@ -9,10 +9,24 @@
     "build": "easy-scripts build",
     "format": "easy-scripts format",
     "lint": "easy-scripts lint",
-    "test": "easy-scripts test",
     "pre-commit": "easy-scripts pre-commit",
+    "test": "easy-scripts test",
     "validate": "easy-scripts validate"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "easy-scripts commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "easy-scripts pre-commit",
+      "post-rewrite": "easy-scripts pre-commit"
+    }
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/easy-scripts/dist/config/eslintrc.js"
+  },
+  "jest": {
+    "preset": "./node_modules/easy-scripts/dist/config/jest.config.js"
+  },
+  "prettier": {},
   "dependencies": {
     "@babel/runtime": "^7.3.1"
   },
