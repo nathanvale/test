@@ -26,7 +26,6 @@
   "jest": {
     "preset": "./node_modules/easy-scripts/dist/config/jest.config.js"
   },
-  "prettier": {},
   "dependencies": {
     "@babel/runtime": "^7.3.1"
   },
