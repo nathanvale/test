@@ -13,6 +13,9 @@
     "pre-commit": "easy-scripts pre-commit",
     "validate": "easy-scripts validate"
   },
+  "eslintConfig": {
+    "extends": "./node_modules/easy-scripts/dist/config/eslintrc.js"
+  },
   "dependencies": {
     "@babel/runtime": "^7.3.1"
   },
