@@ -1,7 +1,7 @@
 export class C {
-  private x = 10
-  public getX = () => this.x
-  public setX = (newVal: number) => {
+  x = 10
+  getX = () => this.x
+  setX = newVal => {
     this.x = newVal
     return this
   }
