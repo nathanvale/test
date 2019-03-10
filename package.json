@@ -13,14 +13,18 @@
     "pre-commit": "easy-scripts pre-commit",
     "validate": "easy-scripts validate"
   },
-  "eslintConfig": {
-    "extends": "./node_modules/easy-scripts/dist/config/eslintrc.js"
-  },
   "dependencies": {
     "@babel/runtime": "^7.3.1"
   },
   "devDependencies": {
     "easy-scripts": "^2.0.0",
     "typescript": "^3.3.3333"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "easy-scripts commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "easy-scripts pre-commit",
+      "post-rewrite": "easy-scripts pre-commit"
+    }
   }
 }
