@@ -7,10 +7,6 @@ export class C {
   }
 }
 
-export const t = (qwerty: boolean) => {
-  return qwerty
-}
-
 export const x = new C().getX()
 export const setX = new C().setX(20).getX()
 export const y = {...{some: 'value'}}

@@ -17,8 +17,11 @@
     "@babel/runtime": "^7.3.1"
   },
   "devDependencies": {
-    "easy-scripts": "^2.0.0",
+    "easy-scripts": "^2.2.0",
     "typescript": "^3.3.3333"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/easy-scripts/dist/config/eslintrc.js"
   },
   "husky": {
     "hooks": {
