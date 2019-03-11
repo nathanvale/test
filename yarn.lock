@@ -3415,10 +3415,10 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
-easy-scripts@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/easy-scripts/-/easy-scripts-2.1.0.tgz#da8d744df5b2c5f0bc28024f54fb2de5e97227c6"
-  integrity sha512-B4a1Ey7SiOHqU8DsGJ/i4Llb1bzFjeDSQHDRy5enacjSSGjGPlPyIbrwVUmj+a0w9KTQSUa/9L5l7pmUdSIUoQ==
+easy-scripts@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/easy-scripts/-/easy-scripts-2.2.0.tgz#2569c15f0ac85770dea5719eb94a8c2e03c8d323"
+  integrity sha512-M3+69jZuHxlwTxfJX/RCuiRCSwDSmIRhdQiYK57lvFK49BfDU+YvWMk9Q1p+8miJN9z8Z1uN1S03GtnzNmGlMQ==
   dependencies:
     "@babel/cli" "^7.2.0"
     "@babel/core" "^7.2.0"

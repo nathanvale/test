@@ -7,6 +7,10 @@ export class C {
   }
 }
 
+export const test: () => string = (): string => {
+  return 'fuck'
+}
+
 export const x = new C().getX()
 export const setX = new C().setX(20).getX()
 export const y = {...{some: 'value'}}
