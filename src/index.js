@@ -1,3 +1,5 @@
+import {foo} from './wtf'
+
 export class C {
   x = 10
   getX = () => this.x
@@ -7,6 +9,7 @@ export class C {
   }
 }
 
+export const tits = foo
 export const x = new C().getX()
 export const setX = new C().setX(20).getX()
 export const y = {...{some: 'value'}}
