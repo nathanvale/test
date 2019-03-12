@@ -1,3 +1,5 @@
+import {foo} from './wtf'
+
 export class C {
   private x = 10
   public getX = () => this.x
@@ -8,7 +10,7 @@ export class C {
 }
 
 export const test: () => string = (): string => {
-  return 'fuck'
+  return foo
 }
 
 export const x = new C().getX()
